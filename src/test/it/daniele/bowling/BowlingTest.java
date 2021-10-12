@@ -45,10 +45,6 @@ public class BowlingTest extends TestCase {
         assertEquals(34, bowling.getPunteggio());
     }
 
-    public void testTuttiStrike() throws Exception {
-        tiri(12,10);
-        assertEquals(300, bowling.getPunteggio());
-    }
 
     private void tiri(int n, int pins) {
         for (int i = 0; i < n; i++)
